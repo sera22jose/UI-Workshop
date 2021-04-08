@@ -1,0 +1,465 @@
+#serviceRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: -5%;
+  margin: 3%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ServiceColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.normalParagraphs {
+  font-weight: 10px;
+  font-size: 20px;
+  color: azure;
+  width: 48%;
+  margin: 9%;
+  margin-top: -120px;
+}
+
+.mainHeading {
+  font-weight: bolder;
+  font-size: 70px;
+  color: azure;
+  width: 48%;
+  margin: 9%;
+  margin-top: 10%;
+}
+
+hr {
+  color: orangered;
+  width: 100px;
+}
+
+.service {
+  font-weight: bolder;
+  font-size: 50px;
+  color: azure;
+  width: 100%;
+  margin: 0%;
+  margin-top: 25%;
+  color: black;
+  text-align: center;
+  padding-bottom: -5px;
+}
+
+.Ourportfolio {
+  font-weight: bolder;
+  font-size: 50px;
+  color: azure;
+  width: 100%;
+  margin: 0%;
+  margin-top: 25%;
+  color: black;
+  text-align: center;
+}
+
+.idea {
+  font-weight: bolder;
+  font-size: 50px;
+  color: azure;
+  width: 100%;
+  margin: 0%;
+  margin-top: 0%;
+  color: black;
+  text-align: center;
+}
+
+.serviceText {
+  font-weight: 15px;
+  font-size: 18px;
+  color: azure;
+  width: 100%;
+  margin: 0%;
+  margin-top: 1%;
+  color: #bbb4b4;
+  text-align: center;
+  width: 52%;
+  margin-left: 22%;
+}
+
+#boxes {
+  background: #f8f9fa;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  -webkit-box-shadow: 10px 5px 25px black;
+          box-shadow: 10px 5px 25px black;
+  border-radius: 15px;
+  width: 20%;
+  color: black;
+  padding: 3%;
+}
+
+.MnagerDetais {
+  background: #f8f9fa;
+  cursor: pointer;
+  border: 1px solid #dddfe2;
+  -webkit-box-shadow: 10px 5px 14px #7d7878;
+          box-shadow: 10px 5px 14px #7d7878;
+  border-radius: 10px;
+  width: 43%;
+  color: black;
+  padding: 9%;
+}
+
+.managingPartener {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.logoRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3% 5% 0 17%;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+  padding: 3%;
+}
+
+.logoName {
+  font-weight: 35px;
+  font-size: 15px;
+  color: azure;
+  width: 100%;
+  margin: 0%;
+  margin-top: 1%;
+  color: #1a1919;
+}
+
+.logo:hover {
+  border: 1px solid salmon;
+}
+
+#boxes a :hover {
+  border-color: #d84e60;
+}
+
+#boxes img {
+  margin-left: 80px;
+}
+
+.portfolioImage {
+  border: 2px solid #ccc;
+  -webkit-box-shadow: 10px 5px 25px black;
+          box-shadow: 10px 5px 25px black;
+  border-radius: 15px;
+  width: 350px;
+  height: 350px;
+  padding: 3%;
+}
+
+.boxheading {
+  font-weight: bold;
+  font-size: 20px;
+  color: azure;
+  width: 100%;
+  margin: 0%;
+  margin-top: 0%;
+  color: black;
+}
+
+.logoheading {
+  font-weight: bold;
+  font-size: 20px;
+  color: azure;
+  width: 100%;
+  margin: 0%;
+  margin-top: 0%;
+  color: black;
+}
+
+.boxContent {
+  font-weight: 15px;
+  font-size: 12px;
+  color: azure;
+  width: 100%;
+  margin: 0%;
+  margin-top: 0%;
+  color: black;
+}
+
+.Talktous {
+  font-weight: 20px;
+  font-size: 18px;
+  color: azure;
+  width: 220px;
+  margin: 2%;
+  margin-top: -64px;
+  background-color: #e45151;
+  height: 50px;
+  text-align: center;
+  border-radius: 48px;
+  margin-left: 144px;
+  border: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: azure;
+}
+
+.pictureLayout {
+  background: url("Assets/main-img.jpg");
+  background-size: 100% 100%;
+  height: 900px;
+  width: 100%;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: #6DB3F2;
+}
+
+.services {
+  background: url("Assets/BG/bg-1.svg");
+  background-size: 100% 100%;
+  height: 1370px;
+  width: 100%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-left: 5%;
+  margin-top: -19%;
+  padding-bottom: -10%;
+}
+
+.portfolio {
+  background: url("Assets/BG/bg-2.svg");
+  background-size: 100% 100%;
+  height: 770px;
+  width: 100%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-left: 5%;
+  margin-top: -11%;
+}
+
+.mainLayout {
+  overflow-Y: scroll;
+  margin-top: -77px;
+}
+
+.headerLayout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 5%;
+  margin-top: 5%;
+}
+
+.topnav {
+  overflow: hidden;
+  background: none;
+  margin: 3% 7% 3% 3%;
+  padding-left: 14%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: none;
+  color: #f05959;
+}
+
+.colorDiv {
+  background-color: #ef2f8e;
+  margin: 5%;
+}
+
+.colorBox {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 2%;
+  margin: 5%;
+  width: 350px;
+  height: 200px;
+}
+
+.colorBox i {
+  margin-left: 43%;
+  height: 50px;
+}
+
+.colorDivHead {
+  font-weight: 15px;
+  font-size: 23px;
+  color: azure;
+  width: 100%;
+  margin: 0%;
+  margin-top: 0%;
+}
+
+.colorDivText {
+  font-weight: 10px;
+  font-size: 18px;
+  color: azure;
+  width: 100%;
+  margin: 0%;
+  margin-top: 0%;
+}
+
+.columnBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.ContactDetails {
+  margin-left: 80%;
+  height: 500px;
+}
+
+#icon-flex, .iconWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.iconWrapper {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid palevioletred;
+  font-size: 3rem;
+  width: 35px;
+  height: 35px;
+  background-color: palevioletred;
+}
+
+.icon-wrapper i {
+  color: white;
+}
+
+#last-layout {
+  margin: 5%;
+}
+
+#instagram {
+  margin-top: 45%;
+  width: 50%;
+}
+
+#WebDevolopment h1, #instagram h1 {
+  font-weight: bold;
+  font-size: 29px;
+  color: azure;
+  width: 35%;
+  margin: 0%;
+  margin-top: 0%;
+  color: black;
+}
+
+#WebDevolopment p {
+  font-weight: 20px;
+  font-size: 15px;
+  color: azure;
+  width: 63%;
+  margin: 0%;
+  margin-top: 1%;
+  color: #aca6a6;
+}
+
+.gallery {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 10px;
+}
+
+.gallery__img {
+  width: 75px;
+  height: 75px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.middle {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#container:hover .image {
+  opacity: 0.3;
+}
+
+#container:hover .middle {
+  opacity: 1;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}/*# sourceMappingURL=style.css.map */

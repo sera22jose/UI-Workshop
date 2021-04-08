@@ -1,0 +1,329 @@
+@mixin backgroundStyle ($bg,$height,$width){
+    background: url($bg);
+    background-size: 100% 100%;
+    height: $height;
+    width: $width;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+@mixin flexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5%;
+    
+}
+@mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+@mixin BoldHeading($weight,$fs,$width,$margin,$marginTop) {
+    font-weight: $weight;
+    font-size: $fs;
+    color: azure;
+    width: $width;
+    margin: $margin;
+    margin-top: $marginTop;
+
+    
+}
+#serviceRow{
+display: flex;
+justify-content:space-evenly;
+padding: -5%;
+margin: 3%;
+align-items: center;
+}
+.ServiceColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+
+}
+.normalParagraphs{
+    @include BoldHeading(10px,20px,48%,9%,-120px);
+}
+.mainHeading{
+    @include BoldHeading(bolder,70px,48%,9%,10%);
+    
+}
+hr{
+    color: orangered;width: 100px;
+}
+.service{
+    @include BoldHeading(bolder,50px,100%,0%,25%);
+    color: black;
+    text-align: center;
+    padding-bottom: -5px;  
+            
+
+}
+.Ourportfolio{
+    @include BoldHeading(bolder,50px,100%,0%,25%);
+    color: black;
+    text-align: center;
+    
+    
+
+}
+.idea{
+    @include BoldHeading(bolder,50px,100%,0%,0%); 
+    color: black;
+    text-align: center;
+    
+}
+.serviceText{
+    @include BoldHeading(15px,18px,100%,0%,1%);
+    color: rgb(187, 180, 180);
+    text-align: center;
+    width: 52%;
+    margin-left: 22%;
+
+}
+#boxes{
+    background: #f8f9fa;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    box-shadow: 10px 5px 25px black;
+    border-radius: 15px;
+    width:20%;
+    color: black;
+    padding: 3%;
+
+    //padding: 3%;
+    
+}.MnagerDetais{
+    background: #f8f9fa;
+    cursor: pointer;
+    border: 1px solid #dddfe2;
+    box-shadow: 10px 5px 14px #7d7878;
+    border-radius: 10px;
+    width:43%;
+    color: black;
+    padding: 9%;
+    
+}
+.managingPartener{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+.logoRow{
+    display: flex;
+    margin: 3% 5% 0 17%;
+}
+.logo img{
+    height: 50px;width:50px;
+    padding: 3%;
+}
+.logoName{
+    @include BoldHeading(35px,15px,100%,0%,1%);
+    color: rgb(26, 25, 25);
+}
+.logo:hover{
+    border:1px solid salmon;
+}
+ #boxes a :hover{
+     border-color: rgb(216, 78, 96);
+}
+#boxes img{
+    margin-left: 80px;
+}
+.portfolioImage{
+    
+    border: 2px solid #ccc;
+    box-shadow: 10px 5px 25px black;
+    border-radius: 15px;
+    width:350px;height: 350px;
+    padding: 3%;
+
+}
+.boxheading{
+     @include BoldHeading(bold,20px,100%,0%,0%);
+    color: black;
+
+}
+.logoheading{
+    @include BoldHeading(bold,20px,100%,0%,0%);
+   color: black;
+   
+
+}
+    .boxContent{
+        @include BoldHeading(15px,12px,100%,0%,0%);
+        color: black;
+    }
+.Talktous{
+    @include BoldHeading(20px,18px,220px,2%,-64px);
+    background-color:rgb(228, 81, 81);
+    height: 50px;
+    text-align: center;
+    border-radius: 48px;
+    margin-left: 144px;
+    border: none;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+    * {box-sizing: border-box;
+    color: azure}
+.pictureLayout{
+    
+    @include backgroundStyle("Assets/main-img.jpg",900px,100%);
+    //-webkit-filter: brightness(0.5);
+   // filter: brightness(0.5);
+    background-color: #6DB3F2;
+    
+  
+}
+.services{
+    @include backgroundStyle("Assets/BG/bg-1.svg",1370px,100%);  
+    margin-left: 5%;
+    margin-top: -19%;
+    padding-bottom: -10%;   
+    } 
+.portfolio{
+    @include backgroundStyle("Assets/BG/bg-2.svg",770px,100%);
+    margin-left: 5%;
+    margin-top: -11%;
+}
+
+.mainLayout{
+    overflow-Y: scroll;
+    margin-top: -77px;
+}
+.headerLayout{
+    @include flexRow();
+    margin-top: 5%;
+    
+
+ }
+.topnav {
+    overflow: hidden;
+    background:none;
+    margin: 3%  7% 3% 3%;
+    padding-left: 14%;;
+}
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color:none;
+    color: rgb(240, 89, 89);
+
+}
+.colorDiv{
+    background-color: #ef2f8e;
+    margin: 5%;
+}
+.colorBox{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 5%;
+    width: 350px;
+    height: 200px;
+}
+.colorBox i{
+    margin-left: 43%;
+    height: 50px;
+}
+.colorDivHead{
+    @include BoldHeading(15px,23px,100%,0%,0%);
+}
+.colorDivText{
+    @include BoldHeading(10px,18px,100%,0%,0%);
+}
+.columnBox{
+    display: flex;
+    
+    justify-content: space-around;
+}
+.ContactDetails{
+    margin-left: 80%;
+    height: 500px;
+}
+#icon-flex, .iconWrapper {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.iconWrapper {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid palevioletred;
+    font-size: 3rem;
+    width: 35px;
+    height: 35px;
+    background-color: palevioletred;
+}
+.icon-wrapper i {
+    color: white;
+}
+#last-layout{
+    margin: 5%;
+}
+#instagram{
+    margin-top:45%;
+    width: 50%;
+}
+#WebDevolopment h1,#instagram h1{
+    @include BoldHeading(bold,29px,35%,0%,0%);
+    color: black;
+}
+#WebDevolopment p{
+    @include BoldHeading(20px,15px,63%,0%,1%);
+    color: rgb(172, 166, 166);
+}
+.gallery {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 10px;
+}
+.gallery__img {
+    width: 75px;
+    height: 75px;
+    align-self: center;
+    object-fit: cover;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  #container:hover .image {
+    opacity: 0.3;
+  }
+  
+  #container:hover .middle {
+    opacity: 1;
+  }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  

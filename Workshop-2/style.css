@@ -1,0 +1,374 @@
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.clientfeadback {
+  background: url("Assets/contact-form-bg.jpg");
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 4%;
+}
+
+.perk {
+  background: url("Assets/does-it-Work-br.png");
+  background-size: 100% 100%;
+  height: 600px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  margin: 5%;
+}
+
+.pMain {
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+
+.pMainWhie {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  width: 100px;
+}
+
+.psubWhite {
+  font-size: 20px;
+  font-weight: 10px;
+  color: white;
+  width: 388px;
+  text-align: left;
+}
+
+.psubwhite2 {
+  font-size: 25px;
+  font-weight: 15px;
+  color: white;
+}
+
+.psub {
+  font-size: 20px;
+  font-weight: 10px;
+  color: gray;
+  text-align: left;
+}
+
+.pMainHead {
+  margin-top: 3%;
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+}
+
+.pHeadWhite {
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+}
+
+.perk1 {
+  width: 30%;
+  height: 40%;
+}
+
+.perk2 {
+  background-color: #f6552a;
+  color: white;
+  padding: 2%;
+  border-radius: 9px;
+}
+
+.network, .perkSec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 5%;
+}
+.network .mainBox, .perkSec .mainBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: url("Assets/your-rewards-2.svg");
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.networkContent {
+  background: url("Assets/bring-value-to-your-network.svg ");
+  background-size: 100% 100%;
+  height: 300px;
+  width: 30%;
+}
+
+.networkContentOne {
+  background: url(" ");
+  background-size: 100% 100%;
+  height: 300px;
+  width: 30%;
+}
+
+.faqLayout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.pictureLayout {
+  background: url("Assets/main-img.jpg");
+  background-size: 100% 100%;
+  height: 1000px;
+  width: 100%;
+}
+
+.mainLayout {
+  overflow-Y: scroll;
+}
+
+.btn {
+  background-color: white;
+  font-weight: 20px;
+  height: 50px;
+  width: 220px;
+  text-align: center;
+  color: black;
+  margin-top: 80px;
+  font-size: 18px;
+  border-radius: 27px;
+  margin-left: 2px;
+  font-weight: 20px;
+}
+
+.Refer {
+  background: url("Assets/banner-text-bg.svg");
+  background-size: 100% 100%;
+  height: 579px;
+  width: 100%;
+  margin-left: -20%;
+  color: white;
+  text-align: center;
+  padding: 11%;
+}
+
+.input-txt {
+  background: none;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  outline: none;
+}
+
+.accordion {
+  background-color: white;
+  color: gray;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+}
+
+.SignUpEmail {
+  background-color: #11a1f5;
+  color: white;
+  height: 46px;
+  width: 220px;
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid #11a1f5;
+}
+
+.SignUpGoogle {
+  background-color: #eff3f5;
+  color: #080808;
+  height: 46px;
+  width: 220px;
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid #11a1f5;
+}
+
+#mybutton {
+  position: fixed;
+  bottom: -4px;
+  right: 10px;
+}
+
+#leftButton1 {
+  position: fixed;
+  bottom: -4px;
+  left: 10px;
+}
+
+#leftButton2 {
+  position: fixed;
+  bottom: -4px;
+  left: 5%;
+}
+
+#leftButton3 {
+  position: fixed;
+  bottom: -4px;
+  left: 10%;
+}
+
+#boxes .window {
+  width: 440px;
+  height: 850px;
+  display: none;
+  z-index: 9999;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+#boxes .window #boxes #dialog {
+  width: 200px;
+  height: 283px;
+  padding: 10px 10px 10px 10px;
+  background-color: whitesmoke;
+  font-size: 15pt;
+  position: sticky;
+  width: 270px;
+  margin: -237px;
+  float: right;
+}
+#boxes .window #noComment {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  background-color: gainsboro;
+  overflow-x: hidden;
+  padding-top: 60px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+#boxes .window #noComment a {
+  font-size: 25px;
+  color: black;
+  width: 25%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#boxes .window #noComment a:hover {
+  color: red;
+}
+#boxes .window #noComment .closebtn {
+  position: absolute;
+  top: 0;
+  right: 1%;
+  font-size: 36px;
+  margin-left: 75%;
+}
+#boxes .window .menubtn {
+  cursor: pointer;
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  color: #0f0f0f;
+  border-radius: 0.5px;
+  padding: 5px;
+  border-color: #ddd;
+}
+#boxes .window .menubtn:hover {
+  background-color: #444;
+}
+#boxes .window #layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  width: 100%;
+  text-align: center;
+}
+#boxes .window .SignInbtn {
+  background-color: ghostwhite;
+  height: 46px;
+  width: 120px;
+  text-align: center;
+  color: #070707;
+  border-radius: 50px;
+  border: 1px solid white;
+}
+#boxes .window .SignUpBtn {
+  background-color: rgba(14, 192, 114, 0.85);
+  color: white;
+  height: 46px;
+  width: 120px;
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid white;
+}
+#boxes .window .feedback {
+  background-color: white;
+  color: #0f0f0f;
+  border-radius: 4px;
+  border-color: white;
+}/*# sourceMappingURL=style.css.map */
