@@ -1,3 +1,7 @@
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;
+color: azure}
 @mixin backgroundStyle ($bg,$height,$width){
     background: url($bg);
     background-size: 100% 100%;
@@ -10,14 +14,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 5%;
-    
+    margin: 5%;   
 }
 @mixin flexColumn {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    
+   justify-content: space-around;    
 }
 @mixin BoldHeading($weight,$fs,$width,$margin,$marginTop) {
     font-weight: $weight;
@@ -25,9 +27,15 @@
     color: azure;
     width: $width;
     margin: $margin;
-    margin-top: $marginTop;
-
-    
+    margin-top: $marginTop;   
+}
+@mixin box($bg,$cursor,$borderRadius,$width,$color,$padding) {
+    background: $bg;
+    cursor: $cursor;
+    border-radius: $borderRadius;
+    width:$width;
+    color: $color;
+    padding: $padding; 
 }
 #serviceRow{
 display: flex;
@@ -42,14 +50,12 @@ align-items: center;
     justify-content: space-evenly;
     align-items: center;
     justify-items: center;
-
 }
 .normalParagraphs{
     @include BoldHeading(10px,20px,48%,9%,-120px);
 }
 .mainHeading{
-    @include BoldHeading(bolder,70px,48%,9%,10%);
-    
+    @include BoldHeading(bolder,70px,48%,9%,10%);    
 }
 hr{
     color: orangered;width: 100px;
@@ -59,22 +65,16 @@ hr{
     color: black;
     text-align: center;
     padding-bottom: -5px;  
-            
-
 }
 .Ourportfolio{
     @include BoldHeading(bolder,50px,100%,0%,25%);
     color: black;
     text-align: center;
-    
-    
-
 }
 .idea{
     @include BoldHeading(bolder,50px,100%,0%,0%); 
     color: black;
-    text-align: center;
-    
+    text-align: center;    
 }
 .serviceText{
     @include BoldHeading(15px,18px,100%,0%,1%);
@@ -82,30 +82,16 @@ hr{
     text-align: center;
     width: 52%;
     margin-left: 22%;
-
 }
 #boxes{
-    background: #f8f9fa;
-    cursor: pointer;
+    @include box(#f8f9fa,pointer ,15px , 20%, black,3% );
     border: 2px solid #ccc;
     box-shadow: 10px 5px 25px black;
-    border-radius: 15px;
-    width:20%;
-    color: black;
-    padding: 3%;
-
-    //padding: 3%;
-    
+ 
 }.MnagerDetais{
-    background: #f8f9fa;
-    cursor: pointer;
+    @include box(#f8f9fa,pointer ,10px , 43%, black,9% );
     border: 1px solid #dddfe2;
-    box-shadow: 10px 5px 14px #7d7878;
-    border-radius: 10px;
-    width:43%;
-    color: black;
-    padding: 9%;
-    
+    box-shadow: 10px 5px 14px #7d7878;    
 }
 .managingPartener{
     display: flex;
@@ -113,7 +99,6 @@ hr{
     justify-content: space-around;
     padding-left: 15%;
     padding-right: 15%;
-
 }
 .logoRow{
     display: flex;
@@ -143,23 +128,20 @@ hr{
     border-radius: 15px;
     width:350px;height: 350px;
     padding: 3%;
-
 }
 .boxheading{
      @include BoldHeading(bold,20px,100%,0%,0%);
     color: black;
-
 }
 .logoheading{
     @include BoldHeading(bold,20px,100%,0%,0%);
    color: black;
    
-
 }
-    .boxContent{
-        @include BoldHeading(15px,12px,100%,0%,0%);
-        color: black;
-    }
+.boxContent{
+     @include BoldHeading(15px,12px,100%,0%,0%);
+     color: black;
+}
 .Talktous{
     @include BoldHeading(20px,18px,220px,2%,-64px);
     background-color:rgb(228, 81, 81);
@@ -169,17 +151,12 @@ hr{
     margin-left: 144px;
     border: none;
 }
-body {font-family: Arial, Helvetica, sans-serif;}
-    * {box-sizing: border-box;
-    color: azure}
 .pictureLayout{
     
     @include backgroundStyle("Assets/main-img.jpg",900px,100%);
     //-webkit-filter: brightness(0.5);
    // filter: brightness(0.5);
-    background-color: #6DB3F2;
-    
-  
+    background-color: #6DB3F2;  
 }
 .services{
     @include backgroundStyle("Assets/BG/bg-1.svg",1370px,100%);  
@@ -200,16 +177,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .headerLayout{
     @include flexRow();
     margin-top: 5%;
-    
-
  }
 .topnav {
     overflow: hidden;
     background:none;
     margin: 3%  7% 3% 3%;
     padding-left: 14%;;
-}
-  
+}  
 .topnav a {
     float: left;
     color: #f2f2f2;
@@ -248,7 +222,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 .columnBox{
     display: flex;
-    
     justify-content: space-around;
 }
 .ContactDetails{
